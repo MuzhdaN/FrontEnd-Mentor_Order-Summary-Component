@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View Solution](https://www.frontendmentor.io/solutions/order-summary-component-using-html-and-css-QIygNLwSs)
+- Live Site URL: [View live site](https://muzhdan.github.io/FrontEnd-Mentor_Order-Summary-Component/)
 
 ## My process
 
