@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif; 
+}
+
+body{
+    font-size: 16px;
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#parent{
+    background-color: #fff;
+    margin: 20px;
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3vh; 
+    box-shadow: 3px 3px 5vh hsl(228, 45%, 43%, 0.15);
+
+}
+#parent img{
+   width: 100%;
+   border-radius: 10px 10px 0 0;
+}
+
+#order-summary-section {
+    padding: 4vh;
+    margin: 2vh;
+   text-align: center;
+}
+#order-summary-section .title{
+    color:  hsl(223, 47%, 23%);
+    padding-bottom: 2vh;
+}
+#order-summary-section .subtitle{
+    color:   hsl(224, 23%, 55%);
+    font-size: 15px;
+}
+
+.annual-plan-section{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -3vh 6vh 4vh;
+    padding: 5vh 4vh 5vh 5vh;
+    /* gap: 48px; */
+}
+.annual-plan-section .left-part{
+    display: flex;  
+    margin: -3vh;
+    gap: 10px;
+}
+.annual-plan-section .left-part .para{
+    margin-left: 1px;
+}
+.annual-plan-section .left-part .para h4{
+    color:  hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 15px;
+  
+}
+.annual-plan-section .left-part p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #8a8a8a;
+    padding-top: 2px;
+}
+#parent a{
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+#parent a:hover{
+    text-decoration: none;
+    color: hsl(245, 73%, 65%);
+}
+
+#parent #button a{
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    margin: 0 6vh 2vh;
+    padding: 1.8vh;
+    text-align: center;
+}
+#parent #button .proceed-btn {
+    background-color:  hsl(245, 75%, 52%);
+    color: #fff;
+    box-shadow: 0px 5px 10px hsl(245, 43%, 50%);;
+}
+#parent #button .proceed-btn:hover{
+    background-color: hsl(245, 73%, 65%);;
+}
+#parent #button .cancel-btn {
+    color: #8a8a8a;
+}
+#parent #button .cancel-btn:hover{
+    color:  hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
